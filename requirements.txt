@@ -1,3 +1,6 @@
+Flask
+Flask-Cors
 selenium
 selenium.webdriver.common.by
 pandas
+pymongo
