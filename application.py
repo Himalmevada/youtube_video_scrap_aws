@@ -51,7 +51,7 @@ def index():
                 uploaded_time = video.find_element(
                     By.XPATH, './/*[@id="metadata-line"]/span[2]').text
 
-                yt_dict = {"Channel Name": yt_channel_name, "Url": link, "Thumbnail": thumbnail, "Title": title,
+                yt_dict = {"ChannelName": yt_channel_name, "Url": link, "Thumbnail": thumbnail, "Title": title,
                            "Views": views_count, "Posted": uploaded_time}
                 csv_data.append(yt_dict)
             print(csv_data)
