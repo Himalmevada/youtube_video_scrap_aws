@@ -1,0 +1,204 @@
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2023 22:27:21] "GET / HTTP/1.1" 200 -
+INFO:root:'Request' object has no attribute 'post'
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2023 22:27:24] "POST /youtube_scrap HTTP/1.1" 200 -
+INFO:root:'Request' object has no attribute 'post'
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2023 22:27:35] "POST /youtube_scrap HTTP/1.1" 200 -
+INFO:root:'Request' object has no attribute 'post'
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2023 22:27:52] "POST /youtube_scrap HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.106:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:log my final result [{'URL': 'https://www.youtube.com/watch?v=9f8b455EZxU', 'Thumbnail': 'https://i.ytimg.com/vi/9f8b455EZxU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBJ-B-wAxFwwvw9CvvWOFSAxDnEkw', 'Title': 'MY NEW SCHOOL Feat. Harry Potter', 'Views': '649K views', 'Posted': '2 days ago'}, {'URL': 'https://www.youtube.com/watch?v=X5q4qa3EnCs', 'Thumbnail': 'https://i.ytimg.com/vi/X5q4qa3EnCs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAmVn70UDJwnmUgTSo---pGUa3cpA', 'Title': 'THE TYPE OF GIRLS I GET', 'Views': '5.4M views', 'Posted': '1 month ago'}, {'URL': 'https://www.youtube.com/watch?v=ct_wYyaKywo', 'Thumbnail': 'https://i.ytimg.com/vi/ct_wYyaKywo/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBcUMeFeRQeQ6PJ9YLRJfvkNYrQuw', 'Title': "DIDN'T EXPECT THIS FROM TYR - GOD OF WAR - RAGANROK | Pt 13", 'Views': '352K views', 'Posted': '1 month ago'}, {'URL': 'https://www.youtube.com/watch?v=Ethg8wIyQow', 'Thumbnail': 'https://i.ytimg.com/vi/Ethg8wIyQow/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDOEERvbztPDUlxVxfyu2tPs9x7OQ', 'Title': 'MOST BRUTAL FIGHT WITH HEIMDALL - GOD OF WAR - RAGANROK | Pt 12', 'Views': '351K views', 'Posted': '1 month ago'}, {'URL': 'https://www.youtube.com/watch?v=NWdxz7fZjl4', 'Thumbnail': 'https://i.ytimg.com/vi/NWdxz7fZjl4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCH0uB_GOKdxlFj2Cjc7hhzTRK8lQ', 'Title': 'KRATOS DISAPPOINTED ME - GOD OF WAR - RAGANROK | Pt 11', 'Views': '350K views', 'Posted': '1 month ago'}]
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2023 22:49:11] "POST /youtube_scrap HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.106:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2023 23:06:48] "GET / HTTP/1.1" 200 -
+INFO:root:log my final result [{'Url': 'https://www.youtube.com/watch?v=-f4yhR5xWck', 'Thumbnail': 'https://i.ytimg.com/vi/-f4yhR5xWck/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA3VgPMITQIe5xnSTpJAhSeGvmmdw', 'Title': 'The PlayStation VR2 Unboxing - PSVR 2 Review (PS5 Virtual Reality)', 'Views': '11K views', 'Posted': '24 minutes ago'}, {'Url': 'https://www.youtube.com/watch?v=vy3d_JKqSY8', 'Thumbnail': 'https://i.ytimg.com/vi/vy3d_JKqSY8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBkKijynaw_mtf2Lnk25tRu1Ag-4Q', 'Title': '$3900 Mac Gaming Setup in 2023 - Unboxing Mac mini M2 Pro', 'Views': '199K views', 'Posted': '7 days ago'}, {'Url': 'https://www.youtube.com/watch?v=OlsJcZyirx8', 'Thumbnail': 'https://i.ytimg.com/vi/OlsJcZyirx8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLASFxgmaQnAFbmdBeOPs6Ku73s5dg', 'Title': 'A Monster Gaming Laptop... RTX 4090! - $3900 ROG Strix SCAR 18', 'Views': '596K views', 'Posted': '2 weeks ago'}, {'Url': 'https://www.youtube.com/watch?v=eG-kVHK5AII', 'Thumbnail': 'https://i.ytimg.com/vi/eG-kVHK5AII/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCoGVmFm2xn03pSugfQ5FLSZiypeg', 'Title': "Hogwarts Legacy Collector's Edition Unboxing [PS5, SOLD OUT] + RTX 4090 Gameplay", 'Views': '1M views', 'Posted': '2 weeks ago'}, {'Url': 'https://www.youtube.com/watch?v=YKpBpbC0P1o', 'Thumbnail': 'https://i.ytimg.com/vi/YKpBpbC0P1o/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB5-RewqBBoU-4mf7GtFGY5t4hrMA', 'Title': 'Samsung Galaxy S23 Ultra Unboxing - $1200 Flagship Smartphone! + Gameplay', 'Views': '979K views', 'Posted': '3 weeks ago'}]
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2023 23:07:36] "POST /youtube_scrap HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.106:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2023 23:09:15] "GET / HTTP/1.1" 200 -
+INFO:root:log my final result [{'Url': 'https://www.youtube.com/watch?v=-f4yhR5xWck', 'Thumbnail': 'https://i.ytimg.com/vi/-f4yhR5xWck/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA3VgPMITQIe5xnSTpJAhSeGvmmdw', 'Title': 'The PlayStation VR2 Unboxing - PSVR 2 Review (PS5 Virtual Reality)', 'Views': '11K views', 'Posted': '26 minutes ago'}, {'Url': 'https://www.youtube.com/watch?v=vy3d_JKqSY8', 'Thumbnail': 'https://i.ytimg.com/vi/vy3d_JKqSY8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBkKijynaw_mtf2Lnk25tRu1Ag-4Q', 'Title': '$3900 Mac Gaming Setup in 2023 - Unboxing Mac mini M2 Pro', 'Views': '199K views', 'Posted': '8 days ago'}, {'Url': 'https://www.youtube.com/watch?v=OlsJcZyirx8', 'Thumbnail': 'https://i.ytimg.com/vi/OlsJcZyirx8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLASFxgmaQnAFbmdBeOPs6Ku73s5dg', 'Title': 'A Monster Gaming Laptop... RTX 4090! - $3900 ROG Strix SCAR 18', 'Views': '596K views', 'Posted': '2 weeks ago'}, {'Url': 'https://www.youtube.com/watch?v=eG-kVHK5AII', 'Thumbnail': 'https://i.ytimg.com/vi/eG-kVHK5AII/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCoGVmFm2xn03pSugfQ5FLSZiypeg', 'Title': "Hogwarts Legacy Collector's Edition Unboxing [PS5, SOLD OUT] + RTX 4090 Gameplay", 'Views': '1M views', 'Posted': '2 weeks ago'}, {'Url': 'https://www.youtube.com/watch?v=YKpBpbC0P1o', 'Thumbnail': 'https://i.ytimg.com/vi/YKpBpbC0P1o/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB5-RewqBBoU-4mf7GtFGY5t4hrMA', 'Title': 'Samsung Galaxy S23 Ultra Unboxing - $1200 Flagship Smartphone! + Gameplay', 'Views': '979K views', 'Posted': '3 weeks ago'}]
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2023 23:09:35] "POST /youtube_scrap HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2023 23:10:20] "GET /youtube_scrap HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.106:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:log my final result [{'Url': 'https://www.youtube.com/watch?v=-f4yhR5xWck', 'Thumbnail': 'https://i.ytimg.com/vi/-f4yhR5xWck/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA3VgPMITQIe5xnSTpJAhSeGvmmdw', 'Title': 'The PlayStation VR2 Unboxing - PSVR 2 Review (PS5 Virtual Reality)', 'Views': '12K views', 'Posted': '27 minutes ago'}, {'Url': 'https://www.youtube.com/watch?v=vy3d_JKqSY8', 'Thumbnail': 'https://i.ytimg.com/vi/vy3d_JKqSY8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBkKijynaw_mtf2Lnk25tRu1Ag-4Q', 'Title': '$3900 Mac Gaming Setup in 2023 - Unboxing Mac mini M2 Pro', 'Views': '199K views', 'Posted': '8 days ago'}, {'Url': 'https://www.youtube.com/watch?v=OlsJcZyirx8', 'Thumbnail': 'https://i.ytimg.com/vi/OlsJcZyirx8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLASFxgmaQnAFbmdBeOPs6Ku73s5dg', 'Title': 'A Monster Gaming Laptop... RTX 4090! - $3900 ROG Strix SCAR 18', 'Views': '596K views', 'Posted': '2 weeks ago'}, {'Url': 'https://www.youtube.com/watch?v=eG-kVHK5AII', 'Thumbnail': 'https://i.ytimg.com/vi/eG-kVHK5AII/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCoGVmFm2xn03pSugfQ5FLSZiypeg', 'Title': "Hogwarts Legacy Collector's Edition Unboxing [PS5, SOLD OUT] + RTX 4090 Gameplay", 'Views': '1M views', 'Posted': '2 weeks ago'}, {'Url': 'https://www.youtube.com/watch?v=YKpBpbC0P1o', 'Thumbnail': 'https://i.ytimg.com/vi/YKpBpbC0P1o/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB5-RewqBBoU-4mf7GtFGY5t4hrMA', 'Title': 'Samsung Galaxy S23 Ultra Unboxing - $1200 Flagship Smartphone! + Gameplay', 'Views': '979K views', 'Posted': '3 weeks ago'}]
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2023 23:10:39] "POST /youtube_scrap HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.106:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2023 23:15:25] "GET /youtube_scrap HTTP/1.1" 200 -
+INFO:root:Message: no such element: Unable to locate element: {"method":"xpath","selector":".//*[@id="text-container"]"}
+  (Session info: chrome=110.0.5481.105)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x00E937D3]
+	(No symbol) [0x00E28B81]
+	(No symbol) [0x00D2B36D]
+	(No symbol) [0x00D5D382]
+	(No symbol) [0x00D5D4BB]
+	(No symbol) [0x00D93302]
+	(No symbol) [0x00D7B464]
+	(No symbol) [0x00D91215]
+	(No symbol) [0x00D7B216]
+	(No symbol) [0x00D50D97]
+	(No symbol) [0x00D5253D]
+	GetHandleVerifier [0x0110ABF2+2510930]
+	GetHandleVerifier [0x01138EC1+2700065]
+	GetHandleVerifier [0x0113C86C+2714828]
+	GetHandleVerifier [0x00F43480+645344]
+	(No symbol) [0x00E30FD2]
+	(No symbol) [0x00E36C68]
+	(No symbol) [0x00E36D4B]
+	(No symbol) [0x00E40D6B]
+	BaseThreadInitThunk [0x766E00F9+25]
+	RtlGetAppContainerNamedObjectPath [0x76EC7BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x76EC7B8E+238]
+
+ERROR:app:Exception on /youtube_scrap [POST]
+Traceback (most recent call last):
+  File "C:\Users\mevad\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\mevad\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1826, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\mevad\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1845, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\mevad\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2173, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, list, tuple with headers or status, Response instance, or WSGI callable, but it was a NoSuchElementException.
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2023 23:15:33] "[35m[1mPOST /youtube_scrap HTTP/1.1[0m" 500 -
+INFO:root:Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=110.0.5481.105)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x00E937D3]
+	(No symbol) [0x00E28B81]
+	(No symbol) [0x00D2B36D]
+	(No symbol) [0x00D0E5DA]
+	(No symbol) [0x00D7F0CB]
+	(No symbol) [0x00D90A56]
+	(No symbol) [0x00D7B216]
+	(No symbol) [0x00D50D97]
+	(No symbol) [0x00D5253D]
+	GetHandleVerifier [0x0110ABF2+2510930]
+	GetHandleVerifier [0x01138EC1+2700065]
+	GetHandleVerifier [0x0113C86C+2714828]
+	GetHandleVerifier [0x00F43480+645344]
+	(No symbol) [0x00E30FD2]
+	(No symbol) [0x00E36C68]
+	(No symbol) [0x00E36D4B]
+	(No symbol) [0x00E40D6B]
+	BaseThreadInitThunk [0x766E00F9+25]
+	RtlGetAppContainerNamedObjectPath [0x76EC7BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x76EC7B8E+238]
+
+ERROR:app:Exception on /youtube_scrap [POST]
+Traceback (most recent call last):
+  File "C:\Users\mevad\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\mevad\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1826, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\mevad\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1845, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\mevad\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2173, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, list, tuple with headers or status, Response instance, or WSGI callable, but it was a NoSuchWindowException.
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2023 23:15:35] "[35m[1mPOST /youtube_scrap HTTP/1.1[0m" 500 -
+INFO:root:log my final result [{'Url': 'https://www.youtube.com/watch?v=-f4yhR5xWck', 'Thumbnail': 'https://i.ytimg.com/vi/-f4yhR5xWck/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA3VgPMITQIe5xnSTpJAhSeGvmmdw', 'Title': 'The PlayStation VR2 Unboxing - PSVR 2 Review (PS5 Virtual Reality)', 'Views': '14K views', 'Posted': '32 minutes ago'}, {'Url': 'https://www.youtube.com/watch?v=vy3d_JKqSY8', 'Thumbnail': 'https://i.ytimg.com/vi/vy3d_JKqSY8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBkKijynaw_mtf2Lnk25tRu1Ag-4Q', 'Title': '$3900 Mac Gaming Setup in 2023 - Unboxing Mac mini M2 Pro', 'Views': '199K views', 'Posted': '8 days ago'}, {'Url': 'https://www.youtube.com/watch?v=OlsJcZyirx8', 'Thumbnail': 'https://i.ytimg.com/vi/OlsJcZyirx8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLASFxgmaQnAFbmdBeOPs6Ku73s5dg', 'Title': 'A Monster Gaming Laptop... RTX 4090! - $3900 ROG Strix SCAR 18', 'Views': '596K views', 'Posted': '2 weeks ago'}, {'Url': 'https://www.youtube.com/watch?v=eG-kVHK5AII', 'Thumbnail': 'https://i.ytimg.com/vi/eG-kVHK5AII/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCoGVmFm2xn03pSugfQ5FLSZiypeg', 'Title': "Hogwarts Legacy Collector's Edition Unboxing [PS5, SOLD OUT] + RTX 4090 Gameplay", 'Views': '1M views', 'Posted': '2 weeks ago'}, {'Url': 'https://www.youtube.com/watch?v=YKpBpbC0P1o', 'Thumbnail': 'https://i.ytimg.com/vi/YKpBpbC0P1o/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB5-RewqBBoU-4mf7GtFGY5t4hrMA', 'Title': 'Samsung Galaxy S23 Ultra Unboxing - $1200 Flagship Smartphone! + Gameplay', 'Views': '979K views', 'Posted': '3 weeks ago'}]
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2023 23:16:13] "POST /youtube_scrap HTTP/1.1" 200 -
+INFO:root:log my final result [{'Url': 'https://www.youtube.com/watch?v=-f4yhR5xWck', 'Thumbnail': 'https://i.ytimg.com/vi/-f4yhR5xWck/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA3VgPMITQIe5xnSTpJAhSeGvmmdw', 'Title': 'The PlayStation VR2 Unboxing - PSVR 2 Review (PS5 Virtual Reality)', 'Views': '14K views', 'Posted': '33 minutes ago'}, {'Url': 'https://www.youtube.com/watch?v=vy3d_JKqSY8', 'Thumbnail': 'https://i.ytimg.com/vi/vy3d_JKqSY8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBkKijynaw_mtf2Lnk25tRu1Ag-4Q', 'Title': '$3900 Mac Gaming Setup in 2023 - Unboxing Mac mini M2 Pro', 'Views': '199K views', 'Posted': '8 days ago'}, {'Url': 'https://www.youtube.com/watch?v=OlsJcZyirx8', 'Thumbnail': 'https://i.ytimg.com/vi/OlsJcZyirx8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLASFxgmaQnAFbmdBeOPs6Ku73s5dg', 'Title': 'A Monster Gaming Laptop... RTX 4090! - $3900 ROG Strix SCAR 18', 'Views': '596K views', 'Posted': '2 weeks ago'}, {'Url': 'https://www.youtube.com/watch?v=eG-kVHK5AII', 'Thumbnail': 'https://i.ytimg.com/vi/eG-kVHK5AII/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCoGVmFm2xn03pSugfQ5FLSZiypeg', 'Title': "Hogwarts Legacy Collector's Edition Unboxing [PS5, SOLD OUT] + RTX 4090 Gameplay", 'Views': '1M views', 'Posted': '2 weeks ago'}, {'Url': 'https://www.youtube.com/watch?v=YKpBpbC0P1o', 'Thumbnail': 'https://i.ytimg.com/vi/YKpBpbC0P1o/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB5-RewqBBoU-4mf7GtFGY5t4hrMA', 'Title': 'Samsung Galaxy S23 Ultra Unboxing - $1200 Flagship Smartphone! + Gameplay', 'Views': '979K views', 'Posted': '3 weeks ago'}]
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2023 23:16:57] "POST /youtube_scrap HTTP/1.1" 200 -
+INFO:root:Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=110.0.5481.105)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x00E937D3]
+	(No symbol) [0x00E28B81]
+	(No symbol) [0x00D2B36D]
+	(No symbol) [0x00D0E5DA]
+	(No symbol) [0x00D7F0CB]
+	(No symbol) [0x00D90A56]
+	(No symbol) [0x00D7B216]
+	(No symbol) [0x00D50D97]
+	(No symbol) [0x00D5253D]
+	GetHandleVerifier [0x0110ABF2+2510930]
+	GetHandleVerifier [0x01138EC1+2700065]
+	GetHandleVerifier [0x0113C86C+2714828]
+	GetHandleVerifier [0x00F43480+645344]
+	(No symbol) [0x00E30FD2]
+	(No symbol) [0x00E36C68]
+	(No symbol) [0x00E36D4B]
+	(No symbol) [0x00E40D6B]
+	BaseThreadInitThunk [0x766E00F9+25]
+	RtlGetAppContainerNamedObjectPath [0x76EC7BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x76EC7B8E+238]
+
+ERROR:app:Exception on /youtube_scrap [POST]
+Traceback (most recent call last):
+  File "C:\Users\mevad\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\mevad\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1826, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\mevad\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1845, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\mevad\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2173, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, list, tuple with headers or status, Response instance, or WSGI callable, but it was a NoSuchWindowException.
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2023 23:17:28] "[35m[1mPOST /youtube_scrap HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2023 23:17:30] "GET / HTTP/1.1" 200 -
+INFO:root:log my final result [{'Url': 'https://www.youtube.com/watch?v=-f4yhR5xWck', 'Thumbnail': 'https://i.ytimg.com/vi/-f4yhR5xWck/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA3VgPMITQIe5xnSTpJAhSeGvmmdw', 'Title': 'The PlayStation VR2 Unboxing - PSVR 2 Review (PS5 Virtual Reality)', 'Views': '14K views', 'Posted': '34 minutes ago'}, {'Url': 'https://www.youtube.com/watch?v=vy3d_JKqSY8', 'Thumbnail': 'https://i.ytimg.com/vi/vy3d_JKqSY8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBkKijynaw_mtf2Lnk25tRu1Ag-4Q', 'Title': '$3900 Mac Gaming Setup in 2023 - Unboxing Mac mini M2 Pro', 'Views': '199K views', 'Posted': '8 days ago'}, {'Url': 'https://www.youtube.com/watch?v=OlsJcZyirx8', 'Thumbnail': 'https://i.ytimg.com/vi/OlsJcZyirx8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLASFxgmaQnAFbmdBeOPs6Ku73s5dg', 'Title': 'A Monster Gaming Laptop... RTX 4090! - $3900 ROG Strix SCAR 18', 'Views': '596K views', 'Posted': '2 weeks ago'}, {'Url': 'https://www.youtube.com/watch?v=eG-kVHK5AII', 'Thumbnail': 'https://i.ytimg.com/vi/eG-kVHK5AII/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCoGVmFm2xn03pSugfQ5FLSZiypeg', 'Title': "Hogwarts Legacy Collector's Edition Unboxing [PS5, SOLD OUT] + RTX 4090 Gameplay", 'Views': '1M views', 'Posted': '2 weeks ago'}, {'Url': 'https://www.youtube.com/watch?v=YKpBpbC0P1o', 'Thumbnail': 'https://i.ytimg.com/vi/YKpBpbC0P1o/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB5-RewqBBoU-4mf7GtFGY5t4hrMA', 'Title': 'Samsung Galaxy S23 Ultra Unboxing - $1200 Flagship Smartphone! + Gameplay', 'Views': '979K views', 'Posted': '3 weeks ago'}]
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2023 23:17:50] "POST /youtube_scrap HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.106:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.106:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2023 23:20:06] "GET / HTTP/1.1" 200 -
+INFO:root:log my final result [{'Url': 'https://www.youtube.com/watch?v=1cTDZcqfDGU', 'Thumbnail': 'https://i.ytimg.com/vi/1cTDZcqfDGU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDtjIfl2wQgv4_Ss8ZYJqWfcXp8jw', 'Title': 'Best Bholenath song | JAY JAY SHIV SHAMBHU 3 | Aghori Muzik', 'Views': '64K views', 'Posted': '13 days ago'}, {'Url': 'https://www.youtube.com/watch?v=UV3VyAF-xlU', 'Thumbnail': 'https://i.ytimg.com/vi/UV3VyAF-xlU/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhyIFcoHDAP&rs=AOn4CLDcF5SAaj4H6eiMIKrYOVq7BUC0sQ', 'Title': 'Jay Jay Shiv Shambhu 3 (Releasing Tomorrow • 12PM) | Aghori Muzik | New Bholenath Song', 'Views': '2.6K views', 'Posted': '2 weeks ago'}, {'Url': 'https://www.youtube.com/watch?v=34B7S-bEBbc', 'Thumbnail': 'https://i.ytimg.com/vi/34B7S-bEBbc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBwxlFUuKTHP_Zg7ViyAf7HJPS2Cg', 'Title': 'SORATH (Music Video) | Aghori Muzik | Hariom Gadhavi | New Songs 2023', 'Views': '234K views', 'Posted': '1 month ago'}, {'Url': 'https://www.youtube.com/watch?v=7nbcuVeWAi8', 'Thumbnail': 'https://i.ytimg.com/vi/7nbcuVeWAi8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCsoJqDDQgv6O5_HbUYPioZf6fupw', 'Title': 'SORATH (Official Teaser) | Aghori Muzik Ft. Hariom Gadhavi | New Songs 2023', 'Views': '9.5K views', 'Posted': '1 month ago'}, {'Url': 'https://www.youtube.com/watch?v=uoOtWepE3xM', 'Thumbnail': 'https://i.ytimg.com/vi/uoOtWepE3xM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDtXfo74WpjIL3Os-NFI2MQBCER2Q', 'Title': 'Mata Mara Kaam Kare | Aghori Muzik | Umesh Barot | New Gujarati Songs', 'Views': '39K views', 'Posted': '1 month ago'}]
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2023 23:21:00] "POST /youtube_scrap HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.106:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2023 23:21:33] "GET / HTTP/1.1" 200 -
+INFO:root:log my final result [{'Url': 'https://www.youtube.com/watch?v=1cTDZcqfDGU', 'Thumbnail': 'https://i.ytimg.com/vi/1cTDZcqfDGU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDtjIfl2wQgv4_Ss8ZYJqWfcXp8jw', 'Title': 'Best Bholenath song | JAY JAY SHIV SHAMBHU 3 | Aghori Muzik', 'Views': '64K views', 'Posted': '13 days ago'}, {'Url': 'https://www.youtube.com/watch?v=UV3VyAF-xlU', 'Thumbnail': 'https://i.ytimg.com/vi/UV3VyAF-xlU/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhyIFcoHDAP&rs=AOn4CLDcF5SAaj4H6eiMIKrYOVq7BUC0sQ', 'Title': 'Jay Jay Shiv Shambhu 3 (Releasing Tomorrow • 12PM) | Aghori Muzik | New Bholenath Song', 'Views': '2.6K views', 'Posted': '2 weeks ago'}, {'Url': 'https://www.youtube.com/watch?v=34B7S-bEBbc', 'Thumbnail': 'https://i.ytimg.com/vi/34B7S-bEBbc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBwxlFUuKTHP_Zg7ViyAf7HJPS2Cg', 'Title': 'SORATH (Music Video) | Aghori Muzik | Hariom Gadhavi | New Songs 2023', 'Views': '234K views', 'Posted': '1 month ago'}, {'Url': 'https://www.youtube.com/watch?v=7nbcuVeWAi8', 'Thumbnail': 'https://i.ytimg.com/vi/7nbcuVeWAi8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCsoJqDDQgv6O5_HbUYPioZf6fupw', 'Title': 'SORATH (Official Teaser) | Aghori Muzik Ft. Hariom Gadhavi | New Songs 2023', 'Views': '9.5K views', 'Posted': '1 month ago'}, {'Url': 'https://www.youtube.com/watch?v=uoOtWepE3xM', 'Thumbnail': 'https://i.ytimg.com/vi/uoOtWepE3xM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDtXfo74WpjIL3Os-NFI2MQBCER2Q', 'Title': 'Mata Mara Kaam Kare | Aghori Muzik | Umesh Barot | New Gujarati Songs', 'Views': '39K views', 'Posted': '1 month ago'}]
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2023 23:21:44] "POST /youtube_scrap HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.106:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:log my final result [{'Url': 'https://www.youtube.com/watch?v=1cTDZcqfDGU', 'Thumbnail': 'https://i.ytimg.com/vi/1cTDZcqfDGU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDtjIfl2wQgv4_Ss8ZYJqWfcXp8jw', 'Title': 'Best Bholenath song | JAY JAY SHIV SHAMBHU 3 | Aghori Muzik', 'Views': '64K views', 'Posted': '13 days ago', '_id': ObjectId('63fa4cf0bb9b087f2ec07568')}, {'Url': 'https://www.youtube.com/watch?v=UV3VyAF-xlU', 'Thumbnail': 'https://i.ytimg.com/vi/UV3VyAF-xlU/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhyIFcoHDAP&rs=AOn4CLDcF5SAaj4H6eiMIKrYOVq7BUC0sQ', 'Title': 'Jay Jay Shiv Shambhu 3 (Releasing Tomorrow • 12PM) | Aghori Muzik | New Bholenath Song', 'Views': '2.6K views', 'Posted': '2 weeks ago', '_id': ObjectId('63fa4cf0bb9b087f2ec07569')}, {'Url': 'https://www.youtube.com/watch?v=34B7S-bEBbc', 'Thumbnail': 'https://i.ytimg.com/vi/34B7S-bEBbc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBwxlFUuKTHP_Zg7ViyAf7HJPS2Cg', 'Title': 'SORATH (Music Video) | Aghori Muzik | Hariom Gadhavi | New Songs 2023', 'Views': '234K views', 'Posted': '1 month ago', '_id': ObjectId('63fa4cf0bb9b087f2ec0756a')}, {'Url': 'https://www.youtube.com/watch?v=7nbcuVeWAi8', 'Thumbnail': 'https://i.ytimg.com/vi/7nbcuVeWAi8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCsoJqDDQgv6O5_HbUYPioZf6fupw', 'Title': 'SORATH (Official Teaser) | Aghori Muzik Ft. Hariom Gadhavi | New Songs 2023', 'Views': '9.5K views', 'Posted': '1 month ago', '_id': ObjectId('63fa4cf0bb9b087f2ec0756b')}, {'Url': 'https://www.youtube.com/watch?v=uoOtWepE3xM', 'Thumbnail': 'https://i.ytimg.com/vi/uoOtWepE3xM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDtXfo74WpjIL3Os-NFI2MQBCER2Q', 'Title': 'Mata Mara Kaam Kare | Aghori Muzik | Umesh Barot | New Gujarati Songs', 'Views': '39K views', 'Posted': '1 month ago', '_id': ObjectId('63fa4cf0bb9b087f2ec0756c')}]
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2023 23:31:23] "POST /youtube_scrap HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.106:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:log my final result [{'Channel Name': 'Aghori_Muzik', 'Url': 'https://www.youtube.com/watch?v=1cTDZcqfDGU', 'Thumbnail': 'https://i.ytimg.com/vi/1cTDZcqfDGU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDtjIfl2wQgv4_Ss8ZYJqWfcXp8jw', 'Title': 'Best Bholenath song | JAY JAY SHIV SHAMBHU 3 | Aghori Muzik', 'Views': '64K views', 'Posted': '13 days ago', '_id': ObjectId('63fa4dd1505f8746212bde29')}, {'Channel Name': 'Aghori_Muzik', 'Url': 'https://www.youtube.com/watch?v=UV3VyAF-xlU', 'Thumbnail': 'https://i.ytimg.com/vi/UV3VyAF-xlU/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhyIFcoHDAP&rs=AOn4CLDcF5SAaj4H6eiMIKrYOVq7BUC0sQ', 'Title': 'Jay Jay Shiv Shambhu 3 (Releasing Tomorrow • 12PM) | Aghori Muzik | New Bholenath Song', 'Views': '2.6K views', 'Posted': '2 weeks ago', '_id': ObjectId('63fa4dd1505f8746212bde2a')}, {'Channel Name': 'Aghori_Muzik', 'Url': 'https://www.youtube.com/watch?v=34B7S-bEBbc', 'Thumbnail': 'https://i.ytimg.com/vi/34B7S-bEBbc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBwxlFUuKTHP_Zg7ViyAf7HJPS2Cg', 'Title': 'SORATH (Music Video) | Aghori Muzik | Hariom Gadhavi | New Songs 2023', 'Views': '234K views', 'Posted': '1 month ago', '_id': ObjectId('63fa4dd1505f8746212bde2b')}, {'Channel Name': 'Aghori_Muzik', 'Url': 'https://www.youtube.com/watch?v=7nbcuVeWAi8', 'Thumbnail': 'https://i.ytimg.com/vi/7nbcuVeWAi8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCsoJqDDQgv6O5_HbUYPioZf6fupw', 'Title': 'SORATH (Official Teaser) | Aghori Muzik Ft. Hariom Gadhavi | New Songs 2023', 'Views': '9.5K views', 'Posted': '1 month ago', '_id': ObjectId('63fa4dd1505f8746212bde2c')}, {'Channel Name': 'Aghori_Muzik', 'Url': 'https://www.youtube.com/watch?v=uoOtWepE3xM', 'Thumbnail': 'https://i.ytimg.com/vi/uoOtWepE3xM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDtXfo74WpjIL3Os-NFI2MQBCER2Q', 'Title': 'Mata Mara Kaam Kare | Aghori Muzik | Umesh Barot | New Gujarati Songs', 'Views': '39K views', 'Posted': '1 month ago', '_id': ObjectId('63fa4dd1505f8746212bde2d')}]
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2023 23:35:08] "POST /youtube_scrap HTTP/1.1" 200 -
+INFO:root:log my final result [{'Channel Name': 'Aghori_Muzik', 'Url': 'https://www.youtube.com/watch?v=1cTDZcqfDGU', 'Thumbnail': 'https://i.ytimg.com/vi/1cTDZcqfDGU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDtjIfl2wQgv4_Ss8ZYJqWfcXp8jw', 'Title': 'Best Bholenath song | JAY JAY SHIV SHAMBHU 3 | Aghori Muzik', 'Views': '64K views', 'Posted': '13 days ago', '_id': ObjectId('63fa4df8505f8746212bde2f')}, {'Channel Name': 'Aghori_Muzik', 'Url': 'https://www.youtube.com/watch?v=UV3VyAF-xlU', 'Thumbnail': 'https://i.ytimg.com/vi/UV3VyAF-xlU/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhyIFcoHDAP&rs=AOn4CLDcF5SAaj4H6eiMIKrYOVq7BUC0sQ', 'Title': 'Jay Jay Shiv Shambhu 3 (Releasing Tomorrow • 12PM) | Aghori Muzik | New Bholenath Song', 'Views': '2.6K views', 'Posted': '2 weeks ago', '_id': ObjectId('63fa4df8505f8746212bde30')}, {'Channel Name': 'Aghori_Muzik', 'Url': 'https://www.youtube.com/watch?v=34B7S-bEBbc', 'Thumbnail': 'https://i.ytimg.com/vi/34B7S-bEBbc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBwxlFUuKTHP_Zg7ViyAf7HJPS2Cg', 'Title': 'SORATH (Music Video) | Aghori Muzik | Hariom Gadhavi | New Songs 2023', 'Views': '234K views', 'Posted': '1 month ago', '_id': ObjectId('63fa4df8505f8746212bde31')}, {'Channel Name': 'Aghori_Muzik', 'Url': 'https://www.youtube.com/watch?v=7nbcuVeWAi8', 'Thumbnail': 'https://i.ytimg.com/vi/7nbcuVeWAi8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCsoJqDDQgv6O5_HbUYPioZf6fupw', 'Title': 'SORATH (Official Teaser) | Aghori Muzik Ft. Hariom Gadhavi | New Songs 2023', 'Views': '9.5K views', 'Posted': '1 month ago', '_id': ObjectId('63fa4df8505f8746212bde32')}, {'Channel Name': 'Aghori_Muzik', 'Url': 'https://www.youtube.com/watch?v=uoOtWepE3xM', 'Thumbnail': 'https://i.ytimg.com/vi/uoOtWepE3xM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDtXfo74WpjIL3Os-NFI2MQBCER2Q', 'Title': 'Mata Mara Kaam Kare | Aghori Muzik | Umesh Barot | New Gujarati Songs', 'Views': '39K views', 'Posted': '1 month ago', '_id': ObjectId('63fa4df8505f8746212bde33')}]
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2023 23:35:46] "POST /youtube_scrap HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2023 23:36:05] "GET / HTTP/1.1" 200 -
