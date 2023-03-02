@@ -13,13 +13,13 @@ app = application
 
 
 @app.route("/", methods=['GET'])
-@cross_origin
+@cross_origin()
 def homepage():
     return render_template("index.html")
 
 
 @app.route("/youtube_scrap", methods=['POST', 'GET'])
-@cross_origin
+@cross_origin()
 def index():
     if request.method == 'POST':
         try:
@@ -71,7 +71,8 @@ def index():
 
         except Exception as e:
             logging.info(e)
-            return 'something is wrong'
+            return e
+            # return 'something is wrong'
     # return render_template('results.html')
 
     else:
@@ -82,4 +83,4 @@ def index():
 
 
 if __name__ == "__main__":
-    app.run(host='127.0.0.1', port=5000, debug=True)
+    app.run(host='127.0.0.1', port=8000, debug=True)
