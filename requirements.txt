@@ -2,6 +2,7 @@ flask
 flask_cors
 selenium
 selenium.webdriver
+webdriver_manager
 pandas
 pymongo
 logging
