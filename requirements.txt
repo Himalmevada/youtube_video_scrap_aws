@@ -1,7 +1,6 @@
 flask
 flask_cors
 selenium
-selenium.webdriver.common.by
 pandas
 pymongo
 logging
