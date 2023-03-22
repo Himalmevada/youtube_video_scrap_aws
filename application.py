@@ -5,6 +5,8 @@ from selenium.webdriver.common.by import By
 import pandas as pd
 import logging
 import pymongo
+from selenium import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
 
 logging.basicConfig(filename="scrapper.log", level=logging.INFO)
 
@@ -27,7 +29,8 @@ def index():
             url = request.form["content"]
             # url = "https://www.youtube.com/@CarryisLive/videos"
 
-            driver = webdriver.Chrome()
+            driver = webdriver.Chrome(ChromeDriverManager().install())
+#             driver = webdriver.Chrome()
             driver.get(url)
 
             videos = driver.find_elements(
